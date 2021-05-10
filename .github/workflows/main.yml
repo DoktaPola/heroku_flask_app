@@ -32,5 +32,3 @@ jobs:
       - name: env
         run: |
           [System.Environment]::GetEnvironmentVariables()
-          echo "hi from gh!" >> C:\IdeaProjects\test.txt
-
