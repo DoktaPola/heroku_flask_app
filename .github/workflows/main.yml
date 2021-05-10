@@ -31,4 +31,4 @@ jobs:
         
       - name: env
         run: |
-          echo %PATH%
+          [System.Environment]::GetEnvironmentVariables()
