@@ -31,4 +31,4 @@ jobs:
         
       - name: env
         run: |
-          [System.Environment]::GetEnvironmentVariables()
+          env
